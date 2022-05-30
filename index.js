@@ -50,5 +50,5 @@ objAnimal1.setName('Elephant');
 objAnimal1.setWeight(45.6);
 
 console.log(objAnimal1.toString());
-let objAnimal2 = new Animal('Mouse');
+let objAnimal2 = new Animal('Mouse',30);
 console.log(objAnimal2.toString());
