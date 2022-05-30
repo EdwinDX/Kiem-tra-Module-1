@@ -36,6 +36,9 @@ function countKiTuNguyenAm(arrString) {
             count++;
         }
     }
+    if (count === 0) {
+        return false;
+    }
     return count;
 }
 let inputStr = prompt('Nhập chuỗi');
