@@ -9,7 +9,10 @@ function giaiPTBacNhat(a,b) {
         return -b/a;
     }
 }
-let result = giaiPTBacNhat(5,8);
+let a = +prompt('Nhap a');
+let b = +prompt('Nhap b');
+let result = giaiPTBacNhat(a,b);
+
 console.log(result);
 
 function checkInArray(n,arr) {
@@ -51,7 +54,7 @@ console.log(countKiTuNguyenAm(newArr));
 let objAnimal1 = new Animal();
 objAnimal1.setName('Elephant');
 objAnimal1.setWeight(45.6);
-
 console.log(objAnimal1.toString());
+
 let objAnimal2 = new Animal('Mouse',30);
 console.log(objAnimal2.toString());
